@@ -1,65 +1,65 @@
 export const category = [
-  {
-    id: 1,
-    category_name: "Dreshes",
-    subCat: [
-      {
-        id: 11,
-        category_name: "Men's dresses",
-      },
-      {
-        id: 12,
-        category_name: "Women's dresses",
-      },
-      {
-        id: 13,
-        category_name: "Baby's dresses",
-      },
-    ],
-    quantity: "100 Products",
-    img: "../assets/img/cat-3.jpg",
-  },
+  // {
+  //   id: 1,
+  //   category_name: "Dreshes",
+  //   subCat: [
+  //     {
+  //       id: 11,
+  //       category_name: "Men's dresses",
+  //     },
+  //     {
+  //       id: 12,
+  //       category_name: "Women's dresses",
+  //     },
+  //     {
+  //       id: 13,
+  //       category_name: "Baby's dresses",
+  //     },
+  //   ],
+  //   quantity: "100 Products",
+  //   img: "../assets/img/cat-3.jpg",
+  // },
   {
     id: 2,
     category_name: "Shirts",
     quantity: "100 Products",
-    img: "../assets/img/cat-2.jpg",
+    img: "../assets/img/shirts.jpg",
   },
   {
     id: 3,
     category_name: "Jeans",
     quantity: "100 Products",
-    img: "../assets/img/cat-1.jpg",
+    img: "../assets/img/jeans.jpg",
   },
   {
     id: 4,
     category_name: "Swimwear",
     quantity: "100 Products",
-    img: "../assets/img/cat-4.jpg",
+    img: "../assets/img/swimwear.jpg",
   },
   {
     id: 5,
     category_name: "Sportwear",
     quantity: "100 Products",
-    img: "../assets/img/cat-2.jpg",
+    img: "../assets/img/sportswear.jpg",
   },
   {
     id: 6,
     category_name: "Jumpsuits",
     quantity: "100 Products",
-    img: "../assets/img/cat-3.jpg",
+    img: "../assets/img/jumpwear.jpg",
   },
   {
     id: 7,
     category_name: "Blazer",
     quantity: "100 Products",
-    img: "../assets/img/cat-1.jpg",
+    img: "../assets/img/blazer.jpg",
   },
   {
     id: 8,
     category_name: "Jackets",
     quantity: "100 Products",
-    img: "../assets/img/cat-2.jpg",
+    img: "../assets/img/jacket2.jpg",
   },
   {
     id: 9,
@@ -67,12 +67,7 @@ export const category = [
     quantity: "100 Products",
     img: "../assets/img/cat-3.jpg",
   },
-  {
-    id: 10,
-    category_name: "Sleepwear",
-    quantity: "100 Products",
-    img: "../assets/img/cat-4.jpg",
-  },
+  
   {
     id: 11,
     category_name: "Shoes",
@@ -83,7 +78,7 @@ export const category = [
     id: 12,
     category_name: "Sleepwear",
     quantity: "100 Products",
-    img: "../assets/img/cat-4.jpg",
+    img: "../assets/img/sleepwear.jpg",
   },
 ];
 
@@ -151,8 +146,8 @@ export const socialIcon = [
 export const products = [
   {
     id: 1,
-    product_name: "Camera",
-    product_img: "../assets/img/product-1.jpg",
+    product_name: "Sleepwear",
+    product_img: "../assets/img/sleepwear.jpg",
     price: "34.99",
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
@@ -162,7 +157,7 @@ export const products = [
 
   {
     id: 2,
-    product_name: "Gens T-Shirt",
+    product_name: "T-Shirt",
     product_img: "../assets/img/product-2.jpg",
     price: "12.99",
     stars: Array(5).fill(
@@ -173,8 +168,8 @@ export const products = [
 
   {
     id: 3,
-    product_name: "Drone",
-    product_img: "../assets/img/product-5.jpg",
+    product_name: "Blazer",
+    product_img: "../assets/img/blazer.jpg",
     price: "18.99",
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
@@ -225,9 +220,131 @@ export const products = [
   },
   {
     id: 8,
-    product_name: "Oentment",
-    product_img: "../assets/img/product-8.jpg",
+    product_name: "Jackets",
+    product_img: "../assets/img/jacket2.jpg",
     price: "53.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 9,
+    product_name: "Jumpwear",
+    product_img: "../assets/img/jumpwear.jpg",
+    price: "53.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 10,
+    product_name: "Sportswear",
+    product_img: "../assets/img/sportswear.jpg",
+    price: "53.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 11,
+    product_name: "Swimwear",
+    product_img: "../assets/img/swimwear.jpg",
+    price: "53.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 12,
+    product_name: "Jeans",
+    product_img: "../assets/img/jeans.jpg",
+    price: "53.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 13,
+    product_name: "Blazer",
+    product_img: "../assets/img/blazer2.jpg",
+    price: "18.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 16,
+    product_name: "Jeans",
+    product_img: "../assets/img/jeans2.jpg",
+    price: "53.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 14,
+    product_name: "Blazer",
+    product_img: "../assets/img/blazer3.jpg",
+    price: "18.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 19,
+    product_name: "T-Shirt",
+    product_img: "../assets/img/shirt2.jpg",
+    price: "12.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 15,
+    product_name: "Blazer",
+    product_img: "../assets/img/blazer4.jpg",
+    price: "18.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  
+  {
+    id: 17,
+    product_name: "Jeans",
+    product_img: "../assets/img/jeans3.jpg",
+    price: "53.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+  {
+    id: 18,
+    product_name: "Jeans",
+    product_img: "../assets/img/jeans4.jpg",
+    price: "53.99",
+    stars: Array(5).fill(
+      <small className="fa fa-star text-primary mr-1"></small>
+    ),
+    ratingCount: 99,
+  },
+ 
+  {
+    id: 20,
+    product_name: "T-Shirt",
+    product_img: "../assets/img/shirt3.jpg",
+    price: "12.99",
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),

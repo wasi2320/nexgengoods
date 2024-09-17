@@ -6,7 +6,7 @@ export default function TopBar() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row bg-secondary py-1 px-xl-5">
+        {/* <div className="row bg-secondary py-1 px-xl-5">
           <div className="col-lg-6 d-none d-lg-block">
             <div className="d-inline-flex align-items-center h-100">
               {nav.slice(2, 6).map((top, index) => (
@@ -50,7 +50,7 @@ export default function TopBar() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
           <div className="col-lg-4">
             <Link to="/" className="text-decoration-none">
