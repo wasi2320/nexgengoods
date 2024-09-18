@@ -152,7 +152,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 12,
   },
 
   {
@@ -163,7 +163,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 91,
   },
 
   {
@@ -174,7 +174,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 54,
   },
 
   {
@@ -185,7 +185,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 72,
   },
   {
     id: 5,
@@ -195,7 +195,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 108,
   },
 
   {
@@ -206,7 +206,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 19,
   },
   {
     id: 7,
@@ -216,7 +216,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 65,
   },
   {
     id: 8,
@@ -226,7 +226,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 33,
   },
   {
     id: 9,
@@ -236,7 +236,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 70,
   },
   {
     id: 10,
@@ -246,7 +246,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 46,
   },
   {
     id: 11,
@@ -256,7 +256,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 50,
   },
   {
     id: 12,
@@ -266,7 +266,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 88,
   },
   {
     id: 13,
@@ -276,7 +276,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 39,
   },
   {
     id: 16,
@@ -286,7 +286,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 73,
   },
   {
     id: 14,
@@ -296,7 +296,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 108,
   },
   {
     id: 19,
@@ -306,7 +306,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 83,
   },
   {
     id: 15,
@@ -316,7 +316,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 87,
   },
   
   {
@@ -327,7 +327,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 44,
   },
   {
     id: 18,
@@ -337,7 +337,7 @@ export const products = [
     stars: Array(5).fill(
       <small className="fa fa-star text-primary mr-1"></small>
     ),
-    ratingCount: 99,
+    ratingCount: 23,
   },
  
   {

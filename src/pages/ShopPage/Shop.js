@@ -23,6 +23,39 @@ export default function Shop() {
 
   return (
     <>
+    <style>
+        {`
+          .product-img {
+            height: 250px; /* Set your desired height */
+            width: 100%; /* Full width of the parent container */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+          }
+
+          .product-img img {
+            object-fit: cover; /* Ensure the image covers the container */
+            height: 100%;
+            width: 100%; /* Make sure the image covers the entire container */
+          }
+
+          .product-action {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+          }
+
+          .product-action .btn {
+            margin-bottom: 5px;
+          }
+        `}
+      </style>
       <Heading title="Home" subtitle="Shop" />
       <div className="container-fluid">
         <div className="row px-xl-5">

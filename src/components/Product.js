@@ -19,6 +19,9 @@ export default function Product() {
     dispatch(getCartTotal());
   };
 
+  // Limit to 10 products
+  const limitedProducts = products.slice(0, 10);
+
   return (
     <>
       <style>
@@ -57,7 +60,7 @@ export default function Product() {
 
       <div className="container-fluid pt-5 pb-3">
         <div className="row px-xl-5">
-          {products.map((item, index) => (
+          {limitedProducts.map((item, index) => (
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1" key={index}>
               <div className="product-item bg-light mb-4">
                 <div className="product-img">
